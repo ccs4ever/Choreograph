@@ -1,34 +1,45 @@
+# Prerequisites
+*.d
+*.j
+*.dep
 
-# XCode gitignore
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.xcscmblueprint
-*.moved-aside
-DerivedData
-*.xcuserstate
+# Compile Commands file (used by clangd)
+compile_commands.json
 
-# OSX gitignore
-.DS_Store
+# Profile files
+coverage.lcov
+gleditor_test.prof
 
-## Ignore Visual Studio temporary files, build results
+# Executables
+gleditor
+gleditor_test
 
-# User-specific files
-*.suo
-*.user
-*.sln.docstates
-*.sdf
-*.opensdf
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Build results
-[Dd]ebug/
-[Rr]elease/
-build/
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
